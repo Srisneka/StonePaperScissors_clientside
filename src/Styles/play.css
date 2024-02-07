@@ -1,0 +1,59 @@
+.play {
+  width: 100%;
+  position: relative;
+  margin-top: 3.125rem;
+  display: flex;
+  flex-direction: column;
+}
+.play .triangle {
+  position: absolute;
+  align-self: center;
+  margin-top: 4.375rem;
+}
+.play .items {
+  display: flex;
+  justify-content: center;
+}
+.play .items .icon {
+  height: 160px;
+  width: 160px;
+  border: 18px solid;
+  border-radius: 50%;
+  transition: transform 0.2s;
+}
+.play .items .icon--paper {
+  background-color: #fff;
+  background-image: url("../images/icon-paper.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  border-color: hsl(230, 89%, 62%);
+  box-shadow: inset 0px 5px 6px grey, 0px 8px #0d31e3;
+  transform: translateX(1.5rem);
+}
+.play .items .icon--paper:hover {
+  transform: translateX(1.5rem) scale(1.1);
+}
+.play .items .icon--scissors {
+  background-color: #fff;
+  background-image: url("../images/icon-scissors.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  border-color: hsl(39, 89%, 49%);
+  box-shadow: inset 0px 5px 6px grey, 0px 8px #a46e0a;
+  transform: translateX(8rem);
+}
+.play .items .icon--scissors:hover {
+  transform: translateX(8rem) scale(1.1);
+}
+.play .items .icon--stone {
+  background-color: #fff;
+  background-image: url("../images/icon-rock.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  border-color: hsl(349, 71%, 52%);
+  box-shadow: inset 0px 5px 6px grey, 0px 8px #a11b34;
+  transform: translateX(-10rem) translateY(13rem);
+}
+.play .items .icon--stone:hover {
+  transform: translateX(-10rem) translateY(13rem) scale(1.1);
+}/*# sourceMappingURL=play.css.map */

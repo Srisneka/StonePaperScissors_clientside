@@ -1,0 +1,33 @@
+.username-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  text-align: center;
+}
+.username-input h1 {
+  margin-bottom: 30px;
+}
+.username-input input {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.username-input button {
+  flex-direction: column;
+  padding: 10px 20px;
+  background-color: #0077FF;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+.username-input button:hover {
+  background-color: #0055CC;
+}/*# sourceMappingURL=usernameinput.css.map */
